@@ -3,7 +3,7 @@
 This is my personal portfolio website developed to showcase my skills, projects, and professional background.
 
 ## 🔗 Live Website
-[Visit My Portfolio](https://yourusername.github.io/portfolio/)
+[Visit My Portfolio](https://sasanekomal.github.io/Portfolio/)
 
 ## 📌 About
 A responsive and interactive portfolio website built using HTML, CSS, and JavaScript.  

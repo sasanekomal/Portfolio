@@ -4,43 +4,41 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Komal Sasane - Portfolio</title>
-  
+
   <link rel="stylesheet" href="style.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <style>
-    /* Optional smooth scroll */
     html {
       scroll-behavior: smooth;
     }
   </style>
 </head>
 <body>
-  <nav>
-  <div class="nav-container">
-    <div class="logo">My Portfolio</div>
-    <button class="hamburger" id="hamburger">&#9776;</button>
-    <ul id="nav-links">
-      <li><a href="#home">Home</a></li>
-      <li><a href="#about">About</a></li>
-      <li><a href="#education">Education</a></li>
-       <li><a href="#skills">Skills</a></li>
-        <li><a href="#experience">Experience</a></li>
-      <li><a href="#projects">Projects</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-  </div>
-</nav>
 
+  <nav>
+    <div class="nav-container">
+      <div class="logo">My Portfolio</div>
+      <button class="hamburger" id="hamburger">&#9776;</button>
+      <ul id="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
 
   <header id="home">
-  <div class="hero-content">
-    <div class="profile-image"></div>
-    <h1>Komal Sasane</h1>
-    <p class="typing">Software Developer | Web Developer | Programmer | Java Full Stack Developer</p>
-  </div>
-</header>
-
+    <div class="hero-content">
+      <div class="profile-image"></div>
+      <h1>Komal Sasane</h1>
+      <p class="typing">Software Developer | Web Developer | Programmer | Java Full Stack Developer</p>
+    </div>
+  </header>
 
   <section id="about" data-aos="fade-up">
     <h2>About Me</h2>
@@ -101,41 +99,40 @@
       </p>
     </div>
   </section>
-<section id="contact" data-aos="fade-up" style="background-color: #121212; padding: 40px 20px; color: #f0f0f0;">
-  <h2 class="contact-heading">Contact</h2>
-  <div class="contact-info">
-   <a href="mailto:sasanekomal11@gmail.com">
-  <i class="fas fa-envelope"></i> sasanekomal11@gmail.com
-</a>
-    </a>
-    <a href="https://www.linkedin.com/in/komal-sasane-00b3bb298" target="_blank" rel="noopener noreferrer">
-      <i class="fab fa-linkedin"></i> LinkedIn
-    </a>
-    <a href="https://github.com/sasanekomal" target="_blank" rel="noopener noreferrer">
-      <i class="fab fa-github"></i> GitHub
-    </a>
-  </div>
-</section>
 
-
+  <section id="contact" data-aos="fade-up">
+    <h2 class="contact-heading">Contact</h2>
+    <div class="contact-info">
+      <a href="mailto:sasanekomal11@gmail.com">
+        <i class="fas fa-envelope"></i> sasanekomal11@gmail.com
+      </a>
+      <a href="https://www.linkedin.com/in/komal-sasane-00b3bb298" target="_blank" rel="noopener noreferrer">
+        <i class="fab fa-linkedin"></i> LinkedIn
+      </a>
+      <a href="https://github.com/sasanekomal" target="_blank" rel="noopener noreferrer">
+        <i class="fab fa-github"></i> GitHub
+      </a>
+    </div>
+  </section>
 
   <footer>
     <p>&copy; 2025 Komal Sasane</p>
   </footer>
 
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>AOS.init();</script>
-    <script src="script.js"></script>
-    <script>
-  const hamburger = document.getElementById('hamburger');
-  const navLinks = document.getElementById('nav-links');
+  <script>AOS.init();</script>
+  <script src="script.js"></script>
+  <script>
+    const hamburger = document.getElementById('hamburger');
+    const navLinks = document.getElementById('nav-links');
 
-  hamburger.addEventListener('click', () => {
-    navLinks.classList.toggle('show');
-  });
-</script>
+    hamburger.addEventListener('click', () => {
+      navLinks.classList.toggle('show');
+    });
+  </script>
 
 </body>
 </html>
+
 
 

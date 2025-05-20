@@ -1,4 +1,4 @@
-/* Reset default styles */
+/* Reset default styles */ 
 * {
     margin: 0;
     padding: 0;
@@ -326,5 +326,9 @@ footer {
     nav ul li {
         margin: 8px 0;
     }
+}
+/* Fix anchor scroll offset when using sticky nav */
+html {
+  scroll-padding-top: 80px;
 }
 
